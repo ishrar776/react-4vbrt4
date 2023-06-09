@@ -26,7 +26,6 @@ const ComB = () => {
           name="txtName"
           onInput={(e) => setInput(e.target.value)}
         />
-        <input type="submit" onClick={addTodoList} />
         <button onClick={addTodoList}>Add Item</button>
       </div>
       <div>
