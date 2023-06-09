@@ -31,7 +31,9 @@ const ComB = () => {
       <div>
         <ul>
           {todoList.map((item) => (
-            <li id={item.id}>{item.task}</li>
+            <li id={item.id}>
+              {item.task} and ID {item.id}
+            </li>
           ))}
         </ul>
       </div>
