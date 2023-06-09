@@ -30,9 +30,9 @@ const ComB = () => {
       </div>
       <div>
         <ul>
-          {todoList.map((item) => {
-            <li id={item.id}>{item.task}</li>;
-          })}
+          {todoList.map((item) => (
+            <li id={item.id}>{item.task}</li>
+          ))}
         </ul>
       </div>
       {/* <FirstNmae.Consumer>
