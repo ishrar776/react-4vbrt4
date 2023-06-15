@@ -7,7 +7,7 @@ const ComB = () => {
   const addTodoList = (e) => {
     e.preventDefault();
     const id = todoList.length + 1;
-    AddTodoList((prev) => [
+    AddTodoList((prev) => [ 
       ...prev,
       {
         id: id,
