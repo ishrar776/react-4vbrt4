@@ -7,7 +7,7 @@ const ComB = () => {
   const addTodoList = (e) => {
     e.preventDefault();
     const id = todoList.length + 1;
-    AddTodoList((prev) => [ 
+    AddTodoList((prev) => [
       ...prev,
       {
         id: id,
@@ -37,11 +37,11 @@ const ComB = () => {
           ))}
         </ul>
       </div>
-      {/* <FirstNmae.Consumer>
+      <FirstNmae.Consumer>
         {(fNmae1) => {
           return <>{fNmae1}</>;
         }}
-      </FirstNmae.Consumer> */}
+      </FirstNmae.Consumer>
     </>
   );
 };
