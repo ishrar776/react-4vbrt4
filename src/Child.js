@@ -6,6 +6,7 @@ const ComB = () => {
   const fName = useContext(FirstNmae);
   const addTodoList = (e) => {
     e.preventDefault();
+    AddTodoList;
     const id = todoList.length + 1;
     AddTodoList((prev) => [
       ...prev,
